@@ -2,6 +2,11 @@
     "manifests": {
         "morgenbord/demo-widget-bundle": {
             "manifest": {
+                "bundles": {
+                    "Morgenbord\\DemoWidgetBundle\\": [
+                        "all"
+                    ]
+                },
                 "aliases": [ "demo-widget" ],
                 "copy-from-package": {
                     "config/": "%CONFIG_DIR%/"
