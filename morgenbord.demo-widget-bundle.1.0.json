@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "morgenbord/demo-widget-bundle": 
+        "morgenbord/demo-widget-bundle": {
             "files": {
                 "config/routes.yaml": {
                     "contents": [
