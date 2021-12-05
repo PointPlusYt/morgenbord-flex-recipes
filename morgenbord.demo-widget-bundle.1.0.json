@@ -7,21 +7,10 @@
                         "all"
                     ]
                 },
-                "copy-from-recipe": {
+                "copy-from-package": {
                     "config/": "%CONFIG_DIR%/"
                 }
-            },
-            "files": {
-                "config/routes/demo-widget.yaml": {
-                    "contents": [
-                        "demo_widget_controllers:",
-                        "    resource: \"@DemoWidgetBundle/Controller/\"",
-                        "    type: annotation",
-                        ""
-                    ],
-                    "executable": false
-                }
-            },
+            }
             "ref": "e8d301ed62aa63e9e6242eb2b64f3fe415f847d0"
         }
     }
