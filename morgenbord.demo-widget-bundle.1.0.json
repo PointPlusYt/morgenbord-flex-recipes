@@ -2,15 +2,10 @@
     "manifests": {
         "morgenbord/demo-widget-bundle": {
             "manifest": {
-                "bundles": {
-                    "MorgenBord\\DemoWidgetBundle\\DemoWidgetBundle": [
-                        "all"
-                    ]
-                },
                 "copy-from-package": {
                     "config/": "%CONFIG_DIR%/"
                 }
-            }
+            },
             "ref": "e8d301ed62aa63e9e6242eb2b64f3fe415f847d0"
         }
     }
