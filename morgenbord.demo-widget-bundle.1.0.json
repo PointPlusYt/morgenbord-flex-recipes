@@ -3,7 +3,7 @@
         "morgenbord/demo-widget-bundle": {
             "manifest": {
                 "bundles": {
-                    "Morgenbord\\DemoWidgetBundle\\DemoWidgetBundle": [
+                    "MorgenBord\\DemoWidgetBundle\\DemoWidgetBundle": [
                         "all"
                     ]
                 },
