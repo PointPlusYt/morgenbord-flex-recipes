@@ -6,6 +6,9 @@
                     "MorgenBord\\DemoWidgetBundle\\DemoWidgetBundle": [
                         "all"
                     ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
                 }
             },
             "files": {
