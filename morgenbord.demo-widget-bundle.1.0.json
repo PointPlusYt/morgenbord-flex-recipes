@@ -12,7 +12,7 @@
                 }
             },
             "files": {
-                "config/routes.yaml": {
+                "config/routes/demo-widget.yaml": {
                     "contents": [
                         "demo_widget_controllers:",
                         "    resource: \"@DemoWidgetBundle/Controller/\"",
