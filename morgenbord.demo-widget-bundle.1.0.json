@@ -7,7 +7,6 @@
                         "all"
                     ]
                 },
-                "aliases": [ "demo-widget" ],
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/"
                 }
