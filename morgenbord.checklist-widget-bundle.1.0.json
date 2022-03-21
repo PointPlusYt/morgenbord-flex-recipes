@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "morgenbord/demo-widget-bundle": {
+            "manifest": {
+                "bundles": {
+                    "MorgenBord\\ChecklistWidgetBundle\\ChecklistWidgetBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/demo_widget.yaml": {
+                    "contents": [
+                        "demo_widget_controllers:",
+                        "    resource: \"@ChecklistWidgetBundle/Controller/\"",
+                        "    type: annotation",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "0ea738b1b441f50676ceaa987061df233fab5a42"
+        }
+    }
+}

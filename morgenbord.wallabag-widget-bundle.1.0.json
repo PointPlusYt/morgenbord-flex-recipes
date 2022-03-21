@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "morgenbord/demo-widget-bundle": {
+            "manifest": {
+                "bundles": {
+                    "MorgenBord\\DemoWidgetBundle\\DemoWidgetBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/demo_widget.yaml": {
+                    "contents": [
+                        "demo_widget_controllers:",
+                        "    resource: \"@DemoWidgetBundle/Controller/\"",
+                        "    type: annotation",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "1b2140b33b7950831ac7c26c54ab71c8f017a609"
+        }
+    }
+}

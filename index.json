@@ -1,6 +1,12 @@
 {
     "recipes": {
+        "morgenbord/checklist-widget-bundle": [
+            "1.0"
+        ],
         "morgenbord/demo-widget-bundle": [
+            "1.0"
+        ],
+        "morgenbord/wallabag-widget-bundle": [
             "1.0"
         ]
     },
