@@ -1,9 +1,9 @@
 {
     "manifests": {
-        "morgenbord/demo-widget-bundle": {
+        "morgenbord/checklist-widget-bundle": {
             "manifest": {
                 "bundles": {
-                    "MorgenBord\\ChecklistWidgetBundle\\ChecklistWidgetBundle": [
+                    "MorgenBord\\ChecklistWidgetBundle\\MorgenbordChecklistWidgetBundle": [
                         "all"
                     ]
                 },
@@ -12,17 +12,17 @@
                 }
             },
             "files": {
-                "config/routes/demo_widget.yaml": {
+                "config/routes/checklist_widget.yaml": {
                     "contents": [
-                        "demo_widget_controllers:",
-                        "    resource: \"@ChecklistWidgetBundle/Controller/\"",
-                        "    type: annotation",
+                        "checklist_widget_controllers:",
+                        "    resource: \"@MorgenbordChecklistWidgetBundle/Controller/\"",
+                        "    type: attribute",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "0ea738b1b441f50676ceaa987061df233fab5a42"
+            "ref": "174291a82788acefc7fe46b06b69334fa1df57d4"
         }
     }
 }
