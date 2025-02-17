@@ -15,7 +15,7 @@
                 "config/routes/checklist_widget.yaml": {
                     "contents": [
                         "checklist_widget_controllers:",
-                        "    resource: \"@MorgenbordChecklistWidgetBundle/Controller/\"",
+                        "    resource: \"@MorgenbordChecklistWidgetBundle/src/Controller/\"",
                         "    type: attribute",
                         ""
                     ],
